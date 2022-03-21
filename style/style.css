@@ -1,0 +1,46 @@
+body::before{
+
+display: block;
+content: '';
+height:60px ;
+
+
+}
+
+
+
+
+
+.img-fluid{
+
+
+    height: 550px;
+}
+
+
+@media(min-width: 768px) { 
+
+.news-input {
+ width: 50%;
+
+}
+
+
+
+ }
+
+
+
+ @media(max-width:511px) { 
+
+  
+
+    .img-fluid{
+
+
+        height: 300px;
+    }
+
+
+
+ }
