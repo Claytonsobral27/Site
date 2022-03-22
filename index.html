@@ -60,7 +60,7 @@
 <!--Showcase-->
 
 
-<section class="bg-dark text-light p-5 p-lg-0 pt-lg-3 text-center text-sm-start">
+<section class="bg-dark text-light p-5 p-lg-0 pt-lg-3 text-center text-sm-start mb-5">
 <div class="container">
 
 <div class="d-sm-flex align-center-justify-content-between">
@@ -68,10 +68,10 @@
 
 <div>
 
-<h1>Site para vender<span class="text-warning"> Web-site</h1></span>
+<h1 class="h1 mt-5">Site para vender<span class="text-warning"> Web-site</h1></span>
 
 <p class="lead my-4 mt-5">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae natus officia debitis suscipit ducimus ea, fuga consectetur magnam minima facilis sunt qui quia ipsum libero corrupti dolor atque totam sapiente!</p>
-<button class="btn btn-primary btn-lg mt-5">Start lest's work together</button>
+<button class="btn btn-primary btn-lg mt-5" data-bs-toggle="modal" data-bs-target="#enroll">Start lest's work together</button>
 
 </div>
 
@@ -245,8 +245,9 @@ Virtual
   <div class="input-group news-input" >
    
     <input type="text" class="form-control" placeholder="Digite seu Email">
+    <button class="btn btn-dark btn-lg ms-3  "  type="button">Submit</button>
   </div>
-    <button class="btn btn-dark btn-lg "  type="button">Submit</button>
+    
    
   
   
@@ -347,7 +348,116 @@ Perguntas frenquentes</h2>
   </section>
 
 
+   <section id="Desenvolvedores" class="p-5 bg-primary">
 
+<div class="container">
+<h2 class="text-center text-white">
+  Desenvolvedores
+</h2>
+<p class="lead text-center text-white mb-5">
+ Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, facilis.
+
+<div class="row g-4 align-items-center justify-content-center">
+
+  <div class="col-md-6 col-lg-3">
+<div class="card bg-light">
+<div class="card body text-center bg-gradient">
+<img src="img/69491004_439324103349984_4857109795569664000_n.jpg" class="rounded-circle mb-3" alt="">
+<h3 class="card-title mb-3">Clayton sobral</h3>
+<p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur odio mollitia error laudantium quas porro.</p>
+
+<div class="container">
+<a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+<a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+<a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+<a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+</div>
+</div>
+
+</div>
+
+  </div>
+
+  <div class="col-md-6 mx-5  col-lg-3">
+    <div class="card bg-light">
+    <div class="card body text-center bg-gradient">
+    <img src="" class="rounded-circle mb-3" alt="">
+    <h3 class="card-title mb-3">Anderson Donato</h3>
+    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur odio mollitia error laudantium quas porro.</p>
+    
+    <div class="container">
+    <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+    <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+    <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+    <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+    </div>
+    </div>
+    
+    </div>
+
+    
+</div>
+<div class="col-md-6 col-lg-3">
+  <div class="card bg-light">
+  <div class="card body text-center bg-gradient">
+  <img src="" class="rounded-circle mb-3" alt="">
+  <h3 class="card-title mb-3">Samuel Pierre </h3>
+  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur odio mollitia error laudantium quas porro.</p>
+  
+  <div class="container">
+  <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+  <a href="#"><i class="bi bi-github text-dark mx-1"></i></a>
+  <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+  <a href="#"><i class="bi bi-linkedin text-dark mx-1"></i></a>
+  </div>
+  </div>
+  
+  </div>
+</div>
+
+   </section>
+<footer class="p-5 bg-dark text-center text-white position-relative">
+<div class="container">
+
+  <p class="lead">Copyright &copy; 2022 nome da empresa</p>
+
+  <a href="#" class="position-absolute bottom-0 end-0 p-5">
+
+<i class="bi bi-arrow-up-circle h1"></i>
+  </a>
+</div>
+
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="lead">Entre em contato pelo e-mail ou whatsapp</p>
+        <form >
+           <div class="mb-3">
+       
+            <label for="telephone" class="col-form-label">
+            Celular:
+
+            </label>
+
+            <input type="tel" class="form-control" id="telephone">
+           </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
